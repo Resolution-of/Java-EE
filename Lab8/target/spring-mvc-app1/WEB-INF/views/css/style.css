@@ -1,0 +1,133 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin:0;
+    font-family:Tahoma, sans-serif;
+    font-size: 16px;
+    color: #000;
+    display:flex;
+    flex-direction: column;
+}
+.header {
+    padding:10px;
+    background-color: #2725b5;
+}
+.footer {
+    height:50px;
+    width:100%;
+    background-color: #2725b5;
+}
+.content,.footer,.header {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+}
+.content {
+    padding: 20px 20px;
+    flex-grow: 1;
+    display:flex;
+}
+.box-1
+{
+    flex:3;
+
+    background-size: cover;
+
+}
+.box-2
+{
+    flex:1;
+    text-align: center;
+    background: Aquamarine;
+}
+.box-3
+{
+    flex:1;
+
+    background-size: cover;
+}
+input[type="submit"] {
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+    background: white;
+    transition: .3s;
+    border: none;
+    font-size: 16px;
+}
+a
+{
+    position:relative;
+    color: #2196f3;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+input[type="submit"]:hover {
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+}
+input[type="reset"] {
+    font-size: 16px;
+    margin-left: 30px;
+    color: black;
+    font-weight: bold;
+    background: white;
+    transition: .3s;
+    border: none;
+}
+input[type="reset"]:hover {
+    background: red;
+    color: white;
+    box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 200px red;
+}
+
+.h-1
+{
+    color:white;
+    margin-left:20px;
+}
+a.button9 {
+    position: relative;
+    display: inline-block;
+    color: #777674;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+    user-select: none;
+    padding: 1em 2em;
+    outline: none;
+    border-radius: 3px / 100%;
+    background-image:
+            linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+            linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+            linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+            linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+            linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+            linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+    background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+    box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+}
+a.button9:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+a.button9:active {
+    top: 1px;
+}
+
+table,
+td {
+    border-collapse: collapse;
+    border: solid 2px black;
+    margin: 2%;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #F5FF54;
+    opacity: 0.9;
+}
